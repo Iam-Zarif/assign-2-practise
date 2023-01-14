@@ -1,0 +1,29 @@
+@media screen and (max-width:767px) {
+    .collection-items{
+grid-template-columns: repeat(1, 1fr) !important;
+    }
+    #collection-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .li-hide{
+        display: none;
+    }
+    .camera-container{
+        flex-direction: column-reverse;
+        gap: 0px !important;
+        padding: 0 !important;
+    }
+    #header-nav{
+        gap: 0px !important;
+    }
+    .container-nav{
+        padding: 0 !important;
+    }
+   #logo{
+    margin-top: 350px !important;
+   }
+   .camera-right{
+    margin-top: 100px;
+   }
+}
